@@ -19,7 +19,7 @@ Imported the establishments.json data into a MongoDB database named uk_food and 
     -   Checked the number of establishments in Dover.
     -   Removed all establishments in the Dover Local Authority from the database.
     -   Verified the removal by recounting the documents.
-    - 
+      
 4.  **Data Type Conversion**:
     -   Used `update_many` to convert `latitude` and `longitude` to decimal numbers.
     -   Converted `RatingValue` to integer numbers, while coercing non-numeric values to `null`.
